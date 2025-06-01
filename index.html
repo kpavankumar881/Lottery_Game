@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lottery</title>
+    <style>
+        body{
+            justify-items: center;
+            
+        }
+        #button1{
+            height: 100px;
+            width: 1500px;
+            font-size: 35px;
+            background-color: rgb(255, 5, 5);
+            border:none;
+            color:white;
+            cursor:pointer;
+            font-size: 45px;
+        }
+        #button1:hover{
+            background-color: rgb(211, 8, 8);
+        }
+        #para{
+            font-size: 60px;
+        }
+        .box{
+            background-color:yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: bold;
+            font-size: 40px;
+            font-weight: 700;
+            height: 100px;
+            width: 400px;
+            margin:20px;
+        }
+        .semi{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .box1{
+            background-color:rgb(3, 130, 11);
+            color:white;
+        }
+        .waitingBox{
+            border:9px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="final-box" id="final_box">
+        <div class="semi" id="semi">
+
+        </div>
+    </div>
+    <p id="para"></p>
+    <button id="button1">Pick a number</button>
+    <script src="script.js"></script>
+</body>
+</html>
